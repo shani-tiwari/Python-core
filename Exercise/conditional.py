@@ -46,7 +46,7 @@ person={ 'skills': ['React', 'JavaScript'] }
     #         print("person has no skills")
 
     
-#   needs values in same order to match
+# ❌  needs values in same order to match
 ''' 
     cond1 =  person['skills'] == ['JavaScript', 'React']
     cond2 = person['skills'] == ['Node', 'Python', 'MongoDB']
@@ -61,7 +61,7 @@ person={ 'skills': ['React', 'JavaScript'] }
          print("unknown title")
 '''
 
-#   values in any order can be checked using all() function
+# ✅  values in any order can be checked using all() function
 '''
     cond1 = ['JavaScript', 'React']
     cond2 = ['Node', 'Python', 'MongoDB']
